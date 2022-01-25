@@ -3,7 +3,7 @@
 I'm reporting the progress of my exploration on XR Development using [Unity 3D](https://unity.com) for [Oculus (Meta) Quest (2)](https://www.oculus.com).
 This is covering all steps regarding the (current) latest engine avaialble for Apple Silicon `2021.2.8f1`. Most of the Tutorials I could find are outdated to this version, so you can find all links and references for Tutorials and Documentation (covering the engine changes from the version used in Tutorials).
 
-I'm using the assets provided by [Synty](https://assetstore.unity.com/packages/3d/props/polygon-starter-pack-low-poly-3d-art-by-synty-156819) in order to elaborate scenery and VR interactions, but I'm following Tutorials and Documentation from a multiple of sources.
+I'm using the assets provided by [Synty](https://assetstore.unity.com/packages/3d/props/polygon-starter-pack-low-poly-3d-art-by-synty-156819) in order to elaborate scenery and VR interactions, but I'm following Tutorials and Documentation from multiple sources.
 
 ![Screenshot 2022-01-25 at 15 31 15](https://user-images.githubusercontent.com/1222058/150998395-51c0f3a8-0658-4db5-b14f-edaf0a64eaad.png)
 
