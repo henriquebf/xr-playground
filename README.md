@@ -24,4 +24,5 @@ I would recommend to check the following steps before following my progress:
 
 #### Next steps:
 
-- See [Issues](https://github.com/henriquebf/xr-playground/issues)
+- See [Pull Requests](https://github.com/henriquebf/xr-playground/pulls) for the ongoing tasks
+- See [Issues](https://github.com/henriquebf/xr-playground/issues) for the next tasks to achieve
