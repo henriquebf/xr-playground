@@ -19,8 +19,9 @@ I would recommend to check the following steps before following my progress:
 
 1. [Create Unity Project with all settings for VR and Oculus](https://github.com/henriquebf/xr-playground/pull/1)
 2. [Update some settings to optimise performance](https://github.com/henriquebf/xr-playground/pull/2)
-3. [Create a first dragging interactions](https://github.com/henriquebf/xr-playground/pull/3)
+3. [Create a first dragging interactions (point-and-grab)](https://github.com/henriquebf/xr-playground/pull/3)
 4. [Make XR Interactions re-usable by saving as pre-fabs](https://github.com/henriquebf/xr-playground/pull/4)
+5. [Animate hands](https://github.com/henriquebf/xr-playground/pull/5)
 
 #### Next steps:
 
