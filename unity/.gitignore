@@ -65,8 +65,11 @@ sysinfo.txt
 crashlytics-build.properties
 
 # Packed Addressables
-/unity/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
 
 # Temporary auto-generated Android Assets
-/unity/[Aa]ssets/[Ss]treamingAssets/aa.meta
-/unity/[Aa]ssets/[Ss]treamingAssets/aa/*
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Extra
+/[Tt]emp/*
