@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/PolygonStarter/Scenes/Demo.unity
+- path: Assets/PolygonStarter/Scenes/WebXR.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
