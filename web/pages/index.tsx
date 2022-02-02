@@ -15,10 +15,6 @@ const Home: NextPage = () => {
     );
     const warningBanner: any = document.querySelector("#unity-warning");
 
-    if (!warningBanner?.style?.display) {
-      return;
-    }
-
     // Shows a temporary message banner/ribbon for a few seconds, or
     // a permanent error message on top of the canvas if type=='error'.
     // If type=='warning', a yellow highlight color is used.
@@ -32,9 +28,6 @@ const Home: NextPage = () => {
           : "none";
       }
       const div: any = document.createElement("div");
-      if (!div?.style) {
-        return;
-      }
       div.innerHTML = msg;
       warningBanner.appendChild(div);
       if (type == "error") div.style = "background: red; padding: 10px;";
