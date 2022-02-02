@@ -44,7 +44,7 @@ ScriptsOnlyBuild:
     - WebXR.WebXRLoader
     - WebXR.WebXRSettings
   sceneClasses:
-    Assets/PolygonStarter/Scenes/Demo.unity:
+    Assets/PolygonStarter/Scenes/Oculus.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -86,39 +86,39 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 436}
+      Script: {instanceID: 438}
     - Class: 114
-      Script: {instanceID: 446}
+      Script: {instanceID: 448}
     - Class: 114
-      Script: {instanceID: 450}
+      Script: {instanceID: 452}
     - Class: 114
-      Script: {instanceID: 1952}
+      Script: {instanceID: 1954}
     - Class: 114
-      Script: {instanceID: 3922}
+      Script: {instanceID: 3924}
     - Class: 114
-      Script: {instanceID: 4266}
+      Script: {instanceID: 4268}
     - Class: 114
-      Script: {instanceID: 4272}
+      Script: {instanceID: 4274}
     - Class: 114
-      Script: {instanceID: 4352}
+      Script: {instanceID: 4354}
     - Class: 114
-      Script: {instanceID: 4382}
+      Script: {instanceID: 4384}
     - Class: 114
-      Script: {instanceID: 4448}
+      Script: {instanceID: 4450}
     - Class: 114
-      Script: {instanceID: 4796}
+      Script: {instanceID: 4798}
     - Class: 114
-      Script: {instanceID: 6532}
+      Script: {instanceID: 6534}
     - Class: 114
-      Script: {instanceID: 7098}
+      Script: {instanceID: 7100}
     - Class: 114
-      Script: {instanceID: 7164}
+      Script: {instanceID: 7166}
     - Class: 114
-      Script: {instanceID: 7696}
+      Script: {instanceID: 7698}
     - Class: 114
-      Script: {instanceID: 8526}
+      Script: {instanceID: 8528}
     - Class: 114
-      Script: {instanceID: 8850}
+      Script: {instanceID: 8852}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -1406,6 +1406,6 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   platform: 13
   scenePathNames:
-  - Assets/PolygonStarter/Scenes/Demo.unity
+  - Assets/PolygonStarter/Scenes/Oculus.unity
   playerPath: /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Dist/XR
     Playground.apk

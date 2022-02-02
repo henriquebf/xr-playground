@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637794277170000000
+      ticks: 637794313420000000
     m_Hash: 2375951994
   m_LockFileStatus:
     m_FilePath: /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637794277170000000
+      ticks: 637794313420000000
     m_Hash: 624187052
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
