@@ -4,12 +4,20 @@ import { useEffect } from "react";
 
 const Home: NextPage = () => {
   useEffect(() => {
-    const container = document.querySelector("#unity-container");
-    const canvas = document.querySelector("#unity-canvas");
-    const loadingBar = document.querySelector("#unity-loading-bar");
-    const progressBarFull = document.querySelector("#unity-progress-bar-full");
-    const fullscreenButton = document.querySelector("#unity-fullscreen-button");
-    const warningBanner = document.querySelector("#unity-warning");
+    const container: any = document.querySelector("#unity-container");
+    const canvas: any = document.querySelector("#unity-canvas");
+    const loadingBar: any = document.querySelector("#unity-loading-bar");
+    const progressBarFull: any = document.querySelector(
+      "#unity-progress-bar-full"
+    );
+    const fullscreenButton: any = document.querySelector(
+      "#unity-fullscreen-button"
+    );
+    const warningBanner: any = document.querySelector("#unity-warning");
+
+    if (!warningBanner?.style?.display) {
+      return;
+    }
 
     // Shows a temporary message banner/ribbon for a few seconds, or
     // a permanent error message on top of the canvas if type=='error'.
@@ -17,13 +25,16 @@ const Home: NextPage = () => {
     // Modify or remove this function to customize the visually presented
     // way that non-critical warnings and error messages are presented to the
     // user.
-    function unityShowBanner(msg: any, type: any) {
+    function unityShowBanner(msg: any, type?: any) {
       function updateBannerVisibility() {
         warningBanner.style.display = warningBanner.children.length
           ? "block"
           : "none";
       }
-      const div = document.createElement("div");
+      const div: any = document.createElement("div");
+      if (!div?.style) {
+        return;
+      }
       div.innerHTML = msg;
       warningBanner.appendChild(div);
       if (type == "error") div.style = "background: red; padding: 10px;";
@@ -87,21 +98,22 @@ const Home: NextPage = () => {
     const script = document.createElement("script");
     script.src = loaderUrl;
     script.onload = () => {
-      createUnityInstance(canvas, config, (progress) => {
+      createUnityInstance(canvas, config, (progress: any) => {
         progressBarFull.style.width = 100 * progress + "%";
       })
-        .then((unityInstance) => {
+        .then((unityInstance: any) => {
           loadingBar.style.display = "none";
           fullscreenButton.onclick = () => {
             unityInstance.SetFullscreen(1);
           };
         })
-        .catch((message) => {
+        .catch((message: any) => {
           alert(message);
         });
     };
     document.body.appendChild(script);
   });
+
   return (
     <div>
       <Head>
