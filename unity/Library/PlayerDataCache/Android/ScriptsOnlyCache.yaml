@@ -1,33 +1,15 @@
 ScriptsOnlyBuild:
   usedScripts:
-    Assembly-CSharp.dll:
-    - Hand
-    - HandController
     Unity.InputSystem.dll:
-    - UnityEngine.InputSystem.InputActionAsset
-    - UnityEngine.InputSystem.InputActionReference
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
-    - UnityEngine.InputSystem.XR.TrackedPoseDriver
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.XR.CoreUtils.dll:
-    - Unity.XR.CoreUtils.XROrigin
     Unity.XR.Interaction.Toolkit.Editor.dll:
     - UnityEditor.XR.Interaction.Toolkit.XRInteractionEditorSettings
     Unity.XR.Interaction.Toolkit.dll:
-    - UnityEngine.XR.Interaction.Toolkit.ActionBasedContinuousMoveProvider
-    - UnityEngine.XR.Interaction.Toolkit.ActionBasedController
-    - UnityEngine.XR.Interaction.Toolkit.ActionBasedSnapTurnProvider
-    - UnityEngine.XR.Interaction.Toolkit.Inputs.InputActionManager
     - UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings
-    - UnityEngine.XR.Interaction.Toolkit.LocomotionSystem
-    - UnityEngine.XR.Interaction.Toolkit.TeleportationProvider
-    - UnityEngine.XR.Interaction.Toolkit.XRGrabInteractable
-    - UnityEngine.XR.Interaction.Toolkit.XRInteractionManager
-    - UnityEngine.XR.Interaction.Toolkit.XRInteractorLineVisual
-    - UnityEngine.XR.Interaction.Toolkit.XRRayInteractor
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
     Unity.XR.Management.dll:
@@ -40,8 +22,27 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.SpatialTracking.dll:
+    - UnityEngine.SpatialTracking.TrackedPoseDriver
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
+    WebXR.Samples.Scripts.dll:
+    - WebXR.Interactions.ControllerInteraction
+    - WebXR.Interactions.FPSCounter
+    - WebXR.Interactions.MouseDragObject
+    - WebXR.Interactions.SceneHitTest
+    WebXR.dll:
+    - WebXR.WebXRCamera
+    - WebXR.WebXRController
+    - WebXR.WebXRManager
   sceneClasses:
-    Assets/Scenes/Playground.unity:
+    Assets/Samples/WebXR Interactions/0.14.0-preview/Sample Scene/Scenes/Desert.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -70,6 +71,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 90
@@ -78,57 +83,67 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 95
       Script: {instanceID: 0}
+    - Class: 102
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 436}
+      Script: {instanceID: 1614}
     - Class: 114
-      Script: {instanceID: 446}
+      Script: {instanceID: 2878}
     - Class: 114
-      Script: {instanceID: 450}
+      Script: {instanceID: 3124}
     - Class: 114
-      Script: {instanceID: 1942}
+      Script: {instanceID: 4248}
     - Class: 114
-      Script: {instanceID: 3902}
+      Script: {instanceID: 5758}
     - Class: 114
-      Script: {instanceID: 4246}
+      Script: {instanceID: 6268}
     - Class: 114
-      Script: {instanceID: 4252}
+      Script: {instanceID: 6630}
     - Class: 114
-      Script: {instanceID: 4332}
+      Script: {instanceID: 7206}
     - Class: 114
-      Script: {instanceID: 4360}
+      Script: {instanceID: 7756}
     - Class: 114
-      Script: {instanceID: 4426}
+      Script: {instanceID: 28078}
     - Class: 114
-      Script: {instanceID: 4768}
+      Script: {instanceID: 28084}
     - Class: 114
-      Script: {instanceID: 6492}
+      Script: {instanceID: 28086}
     - Class: 114
-      Script: {instanceID: 7056}
+      Script: {instanceID: 28164}
     - Class: 114
-      Script: {instanceID: 7122}
+      Script: {instanceID: 28166}
     - Class: 114
-      Script: {instanceID: 7652}
+      Script: {instanceID: 28168}
     - Class: 114
-      Script: {instanceID: 8482}
-    - Class: 114
-      Script: {instanceID: 8804}
+      Script: {instanceID: 28170}
     - Class: 115
       Script: {instanceID: 0}
-    - Class: 120
-      Script: {instanceID: 0}
-    - Class: 124
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 135
       Script: {instanceID: 0}
     - Class: 137
       Script: {instanceID: 0}
+    - Class: 138
+      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 215
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     - Class: 258
       Script: {instanceID: 0}
@@ -1347,7 +1362,61 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: WebXR.dll
+    namespaceName: WebXR
+    className: WebXRManager
+  - hash:
+      serializedVersion: 2
+      Hash: 69855f0c96f78c9b7699011f2ec541fd
+    assemblyName: WebXR.dll
+    namespaceName: WebXR
+    className: WebXRCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 3c06cb33ff1249e636817335759ab307
+    assemblyName: WebXR.dll
+    namespaceName: WebXR
+    className: WebXRController
+  - hash:
+      serializedVersion: 2
+      Hash: 08b07a46a77733eadae599ff0a333b00
+    assemblyName: WebXR.dll
+    namespaceName: WebXR
+    className: WebXRSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: WebXR.dll
+    namespaceName: WebXR
+    className: WebXRLoader
+  - hash:
+      serializedVersion: 2
+      Hash: ea930b4ff60ca57135e37d0378470ebe
+    assemblyName: WebXR.Samples.Scripts.dll
+    namespaceName: WebXR.Interactions
+    className: FPSCounter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: WebXR.Samples.Scripts.dll
+    namespaceName: WebXR.Interactions
+    className: MouseDragObject
+  - hash:
+      serializedVersion: 2
+      Hash: 9c03d3556ffa0f88f361e13a6af56a78
+    assemblyName: WebXR.Samples.Scripts.dll
+    namespaceName: WebXR.Interactions
+    className: SceneHitTest
+  - hash:
+      serializedVersion: 2
+      Hash: 498c4bf00f362a97a1049c10197db600
+    assemblyName: WebXR.Samples.Scripts.dll
+    namespaceName: WebXR.Interactions
+    className: ControllerInteraction
   platform: 13
   scenePathNames:
-  - Assets/Scenes/Playground.unity
-  playerPath: /Users/henriqueferreira/Projects/Tutorials/XR Playground/Dist/XR Playground.apk
+  - Assets/Samples/WebXR Interactions/0.14.0-preview/Sample Scene/Scenes/Desert.unity
+  playerPath: /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Dist/WebXR.apk

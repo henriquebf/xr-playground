@@ -18,13 +18,13 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker1
 -projectPath
-/Users/henriqueferreira/Projects/Tutorials/XR Playground
+/Users/henriqueferreira/Projects/Tutorials/XR Playground/unity
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-59503
-Successfully changed project path to: /Users/henriqueferreira/Projects/Tutorials/XR Playground
-/Users/henriqueferreira/Projects/Tutorials/XR Playground
+52695
+Successfully changed project path to: /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity
+/Users/henriqueferreira/Projects/Tutorials/XR Playground/unity
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,11 +54,11 @@ Successfully changed project path to: /Users/henriqueferreira/Projects/Tutorials
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 67.59 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 3.51 ms.
+Refreshing native plugins compatible for Editor in 68.33 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 3.83 ms.
 Initialize engine version: 2021.2.8f1 (d0e5f0a7b06a)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.2.8f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/henriqueferreira/Projects/Tutorials/XR Playground/Assets
+[Subsystems] Discovering subsystems at path /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
  preferred device: Apple M1 (high power)
 Metal devices available: 1
@@ -69,37 +69,37 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.2.8f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.2.8f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.2.8f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56276
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56890
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.2.8f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.2.8f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001005 seconds.
+Registered in 0.002082 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 75.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 69.39 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.21 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.384 seconds
+- Completed reload, in  0.394 seconds
 Domain Reload Profiling:
-	ReloadAssembly (384ms)
-		BeginReloadAssembly (30ms)
+	ReloadAssembly (395ms)
+		BeginReloadAssembly (47ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (306ms)
-			LoadAssemblies (30ms)
+		EndReloadAssembly (299ms)
+			LoadAssemblies (47ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (66ms)
+			SetupTypeCache (65ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (192ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (186ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (76ms)
+				RefreshPlugins (70ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (84ms)
 				ProcessInitializeOnLoadMethodAttributes (24ms)
@@ -109,38 +109,124 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002465 seconds.
+Registered in 0.001822 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file data-0x13f00c200 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140430000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x13f00c200 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140ba0000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140430000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1404c8000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x13f58fc00 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140430000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x128160000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140528000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x120f30000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x128170000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x121000000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x120f60000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x121060000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x119838600 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1381af600 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x13f586200 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140598000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140430000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1406e8000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140760000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x128218000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x128478000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x138a3a000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x128218000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x13f58fc00 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x13f59b000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.XR.CoreUtils.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1406e8000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x13f5a0800 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x13f5a8e00 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x13f5a8e00 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1406f8000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140750000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.XR.CoreUtils.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x13f5aee00 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x138a3a000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140750000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x13f5aee00 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.XR.Oculus.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140750000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x13f5aee00 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140750000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x13f5be600 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.XR.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x138ae8e00 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 69.95 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.22 ms.
+Refreshing native plugins compatible for Editor in 70.92 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  0.726 seconds
+- Completed reload, in  0.744 seconds
 Domain Reload Profiling:
-	ReloadAssembly (727ms)
-		BeginReloadAssembly (54ms)
+	ReloadAssembly (744ms)
+		BeginReloadAssembly (60ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (12ms)
-		EndReloadAssembly (613ms)
-			LoadAssemblies (51ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (625ms)
+			LoadAssemblies (60ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (173ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (321ms)
+			SetupTypeCache (171ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (324ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (70ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (174ms)
+				RefreshPlugins (71ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (175ms)
 				ProcessInitializeOnLoadMethodAttributes (12ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
@@ -151,12 +237,321 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.2.8f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.19 ms.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
 Unloading 3949 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 29 unused Assets / (46.0 KB). Loaded Objects now: 4409.
-Memory consumption went from 254.7 MB to 254.7 MB.
-Total: 2.467667 ms (FindLiveObjects: 0.133209 ms CreateObjectMapping: 0.049791 ms MarkObjects: 2.237792 ms  DeleteObjects: 0.046042 ms)
+Unloading 29 unused Assets / (44.1 KB). Loaded Objects now: 4409.
+Memory consumption went from 250.8 MB to 250.7 MB.
+Total: 2.262833 ms (FindLiveObjects: 0.112250 ms CreateObjectMapping: 0.047750 ms MarkObjects: 2.054750 ms  DeleteObjects: 0.047333 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001589 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x17ffe3000 may have been prematurely finalized
+Symbol file data-0x1389afc00 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1290d8000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1389afc00 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x129148000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1290d8000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1403c0000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x17f04a400 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140020000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140020000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140b80000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140b98000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140ac8000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1290d8000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x129190000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140b48000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x17f04a400 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x17f02f800 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x17f04a400 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140ac8000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140020000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140530000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140bf0000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1405a8000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140ac8000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x17f032000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1406a8000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x17f033c00 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x17f01a400 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.XR.CoreUtils.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140020000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x17f074200 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x17f01fc00 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x17f074200 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x129250000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x129190000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.XR.CoreUtils.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x138a27a00 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x138907e00 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x129190000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x138907e00 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.XR.Oculus.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x129190000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x13890a000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x129190000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x138f37a00 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.XR.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x138f16000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.613 seconds
+Domain Reload Profiling:
+	ReloadAssembly (614ms)
+		BeginReloadAssembly (73ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (483ms)
+			LoadAssemblies (35ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (179ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (204ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (146ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Unloading 3949 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (22.9 KB). Loaded Objects now: 4428.
+Memory consumption went from 250.8 MB to 250.8 MB.
+Total: 2.354000 ms (FindLiveObjects: 0.123291 ms CreateObjectMapping: 0.050167 ms MarkObjects: 2.163083 ms  DeleteObjects: 0.016625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001509 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16af3f000 may have been prematurely finalized
+Symbol file data-0x17e581a00 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x121340000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x17e581a00 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1213b0000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x121340000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x121408000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1387ed800 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x121340000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x121340000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x121450000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x121568000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1408b8000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140020000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140968000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1409d0000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x13f7d4000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x13f256000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x13f7d4000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140a48000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140020000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x121710000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x121340000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140ac0000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1409d0000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x13f256000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1403e0000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x13f256000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x13f0df200 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.XR.CoreUtils.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1409d0000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x13f073c00 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x13f773a00 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x13f6de800 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140488000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140b38000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.XR.CoreUtils.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x13f6de800 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x13f0b3000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140b38000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x13f073c00 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.XR.Oculus.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140b38000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x13f073c00 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140b38000 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x13f6de800 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.XR.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x13f35ba00 doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.619 seconds
+Domain Reload Profiling:
+	ReloadAssembly (619ms)
+		BeginReloadAssembly (74ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (487ms)
+			LoadAssemblies (34ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (180ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (205ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (146ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Unloading 3949 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (22.2 KB). Loaded Objects now: 4435.
+Memory consumption went from 251.1 MB to 251.1 MB.
+Total: 2.179000 ms (FindLiveObjects: 0.119833 ms CreateObjectMapping: 0.049667 ms MarkObjects: 1.999458 ms  DeleteObjects: 0.009250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.99 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (23.0 KB). Loaded Objects now: 4435.
+Memory consumption went from 172.6 MB to 172.6 MB.
+Total: 3.815500 ms (FindLiveObjects: 0.183833 ms CreateObjectMapping: 0.052125 ms MarkObjects: 3.557917 ms  DeleteObjects: 0.020958 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
