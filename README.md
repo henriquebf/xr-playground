@@ -23,6 +23,7 @@ I would recommend to check the following steps before following my progress:
 4. [Make XR Interactions re-usable by saving as pre-fabs](https://github.com/henriquebf/xr-playground/pull/4)
 5. [Animate hands](https://github.com/henriquebf/xr-playground/pull/5)
 6. [Enable Intellisence for Unity on VS Code](https://github.com/henriquebf/xr-playground/pull/6)
+7. [Use WebXR Camera prefab and export scene to be used via browser](https://github.com/henriquebf/xr-playground/pull/18)
 
 #### Next steps:
 
