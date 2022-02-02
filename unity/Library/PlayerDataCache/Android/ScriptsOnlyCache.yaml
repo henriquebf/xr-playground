@@ -40,8 +40,11 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    WebXR.dll:
+    - WebXR.WebXRLoader
+    - WebXR.WebXRSettings
   sceneClasses:
-    Assets/Scenes/Playground.unity:
+    Assets/PolygonStarter/Scenes/Demo.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -89,33 +92,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 450}
     - Class: 114
-      Script: {instanceID: 1942}
+      Script: {instanceID: 1952}
     - Class: 114
-      Script: {instanceID: 3902}
+      Script: {instanceID: 3922}
     - Class: 114
-      Script: {instanceID: 4246}
+      Script: {instanceID: 4266}
     - Class: 114
-      Script: {instanceID: 4252}
+      Script: {instanceID: 4272}
     - Class: 114
-      Script: {instanceID: 4332}
+      Script: {instanceID: 4352}
     - Class: 114
-      Script: {instanceID: 4360}
+      Script: {instanceID: 4382}
     - Class: 114
-      Script: {instanceID: 4426}
+      Script: {instanceID: 4448}
     - Class: 114
-      Script: {instanceID: 4768}
+      Script: {instanceID: 4796}
     - Class: 114
-      Script: {instanceID: 6492}
+      Script: {instanceID: 6532}
     - Class: 114
-      Script: {instanceID: 7056}
+      Script: {instanceID: 7098}
     - Class: 114
-      Script: {instanceID: 7122}
+      Script: {instanceID: 7164}
     - Class: 114
-      Script: {instanceID: 7652}
+      Script: {instanceID: 7696}
     - Class: 114
-      Script: {instanceID: 8482}
+      Script: {instanceID: 8526}
     - Class: 114
-      Script: {instanceID: 8804}
+      Script: {instanceID: 8850}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -203,6 +206,12 @@ ScriptsOnlyBuild:
     className: UnityOnScrollbarValueChangedMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 08b07a46a77733eadae599ff0a333b00
+    assemblyName: WebXR.dll
+    namespaceName: WebXR
+    className: WebXRSettings
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -263,6 +272,12 @@ ScriptsOnlyBuild:
     className: TeleportationArea
   - hash:
       serializedVersion: 2
+      Hash: 3c06cb33ff1249e636817335759ab307
+    assemblyName: WebXR.dll
+    namespaceName: WebXR
+    className: WebXRController
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -315,6 +330,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: ea930b4ff60ca57135e37d0378470ebe
+    assemblyName: WebXR.Samples.Scripts.dll
+    namespaceName: WebXR.Interactions
+    className: FPSCounter
   - hash:
       serializedVersion: 2
       Hash: 8afd0435cb508da5e2cae86937da9045
@@ -411,6 +432,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 498c4bf00f362a97a1049c10197db600
+    assemblyName: WebXR.Samples.Scripts.dll
+    namespaceName: WebXR.Interactions
+    className: ControllerInteraction
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -597,6 +624,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.CoreUtils.dll
     namespaceName: Unity.XR.CoreUtils
     className: XROrigin
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: WebXR.dll
+    namespaceName: WebXR
+    className: WebXRLoader
   - hash:
       serializedVersion: 2
       Hash: 63e8494d8961e584a57c5e4286e89c75
@@ -833,6 +866,12 @@ ScriptsOnlyBuild:
     className: TransitionArmModel
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: WebXR.Samples.Scripts.dll
+    namespaceName: WebXR.Interactions
+    className: MouseDragObject
+  - hash:
+      serializedVersion: 2
       Hash: bcaee4c2a83047257b5f47d6ed264b75
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -867,6 +906,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 69855f0c96f78c9b7699011f2ec541fd
+    assemblyName: WebXR.dll
+    namespaceName: WebXR
+    className: WebXRCamera
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -921,6 +966,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.State.dll
     namespaceName: Unity.VisualScripting
     className: StateGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: WebXR.dll
+    namespaceName: WebXR
+    className: WebXRManager
   - hash:
       serializedVersion: 2
       Hash: fc169718e5fd24cea7425f24908c0418
@@ -1247,6 +1298,12 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
+      Hash: 9c03d3556ffa0f88f361e13a6af56a78
+    assemblyName: WebXR.Samples.Scripts.dll
+    namespaceName: WebXR.Interactions
+    className: SceneHitTest
+  - hash:
+      serializedVersion: 2
       Hash: 893dbdbfe611d62e230a686ea89f1efd
     assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
     namespaceName: UnityEngine.XR.LegacyInputHelpers
@@ -1349,5 +1406,6 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   platform: 13
   scenePathNames:
-  - Assets/Scenes/Playground.unity
-  playerPath: /Users/henriqueferreira/Projects/Tutorials/XR Playground/Dist/XR Playground.apk
+  - Assets/PolygonStarter/Scenes/Demo.unity
+  playerPath: /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Dist/XR
+    Playground.apk

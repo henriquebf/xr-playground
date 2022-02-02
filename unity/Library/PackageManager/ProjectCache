@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637794091240000000
-    m_Hash: 1040792788
+      ticks: 637794277170000000
+    m_Hash: 2375951994
   m_LockFileStatus:
     m_FilePath: /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637794091240000000
-    m_Hash: 1623288138
+      ticks: 637794277170000000
+    m_Hash: 624187052
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,142 @@ m_LocalPackages:
 m_ProjectPath: /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Packages
 m_EditorVersion: 2021.2.8f1 (d0e5f0a7b06a)
 m_ResolvedPackages:
+- packageId: com.de-panther.webxr@https://github.com/De-Panther/unity-webxr-export.git?path=/Packages/webxr
+  testable: 0
+  isDirectDependency: 1
+  version: 0.14.0-preview
+  source: 5
+  resolvedPath: /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/PackageCache/com.de-panther.webxr@91e8d9ad9b
+  assetPath: Packages/com.de-panther.webxr
+  name: com.de-panther.webxr
+  displayName: WebXR Export
+  author:
+    name: De-Panther
+    email: 
+    url: https://github.com/De-Panther/unity-webxr-export
+  category: 
+  type: 
+  description: Export Unity projects to WebXR
+  status: 4
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    verified: 
+  dependencies:
+  - name: com.unity.xr.management
+    version: 3.2.13
+  resolvedDependencies:
+  - name: com.unity.xr.management
+    version: 4.2.1
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.8
+  - name: com.unity.subsystemregistration
+    version: 1.1.0
+  keywords:
+  - webxr
+  - xr
+  - ar
+  - vr
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: https://github.com/De-Panther/unity-webxr-export/tree/master/Documentation
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.de-panther.webxr-interactions@https://github.com/De-Panther/unity-webxr-export.git?path=/Packages/webxr-interactions
+  testable: 0
+  isDirectDependency: 1
+  version: 0.14.0-preview
+  source: 5
+  resolvedPath: /Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/PackageCache/com.de-panther.webxr-interactions@91e8d9ad9b
+  assetPath: Packages/com.de-panther.webxr-interactions
+  name: com.de-panther.webxr-interactions
+  displayName: WebXR Interactions
+  author:
+    name: De-Panther
+    email: 
+    url: https://github.com/De-Panther/unity-webxr-export
+  category: 
+  type: 
+  description: WebXR interactions components and samples for WebXR Export
+  status: 4
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    verified: 
+  dependencies:
+  - name: com.de-panther.webxr
+    version: 0.14.0-preview
+  resolvedDependencies:
+  - name: com.de-panther.webxr
+    version: 0.14.0-preview
+  - name: com.unity.xr.management
+    version: 4.2.1
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.8
+  - name: com.unity.subsystemregistration
+    version: 1.1.0
+  keywords:
+  - webxr
+  - xr
+  - ar
+  - vr
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: https://github.com/De-Panther/unity-webxr-export/tree/master/Documentation
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
 - packageId: com.unity.collab-proxy@1.15.7
   testable: 0
   isDirectDependency: 1
