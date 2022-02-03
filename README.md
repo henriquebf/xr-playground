@@ -24,6 +24,7 @@ I would recommend to check the following steps before following my progress:
 5. [Animate hands](https://github.com/henriquebf/xr-playground/pull/5)
 6. [Enable Intellisence for Unity on VS Code](https://github.com/henriquebf/xr-playground/pull/6)
 7. [Use WebXR Camera prefab and export scene to be used via browser](https://github.com/henriquebf/xr-playground/pull/18)
+8. [Import a real terrain into a scene](https://github.com/henriquebf/xr-playground/pull/20)
 
 #### Next steps:
 
