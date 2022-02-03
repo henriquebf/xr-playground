@@ -1,4 +1,4 @@
-#Wed Feb 02 22:00:19 CET 2022
+#Thu Feb 03 20:55:54 CET 2022
 base.0=/Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/intermediates/dex/release/mergeDexRelease/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

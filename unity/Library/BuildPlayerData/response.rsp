@@ -10,6 +10,7 @@
 -a="/Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/PlayerScriptAssemblies/UnityEngine.UI.dll"
 -a="/Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/PlayerScriptAssemblies/UnityEngine.SpatialTracking.dll"
 -a="/Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll"
+-a="/Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/PlayerScriptAssemblies/Unity.TerrainTools.dll"
 -a="/Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/PlayerScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll"
 -a="/Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/PlayerScriptAssemblies/Unity.XR.CoreUtils.dll"
 -a="/Users/henriqueferreira/Projects/Tutorials/XR Playground/unity/Library/PlayerScriptAssemblies/Unity.XR.Management.dll"
