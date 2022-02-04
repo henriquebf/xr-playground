@@ -28,5 +28,9 @@ I would recommend to check the following steps before following my progress:
 
 #### Next steps:
 
-- See [Pull Requests](https://github.com/henriquebf/xr-playground/pulls) for the ongoing tasks
+- See [Pull Requests](https://github.com/henriquebf/xr-playground/pulls) for ongoing tasks
 - See [Issues](https://github.com/henriquebf/xr-playground/issues) for upcoming tasks
+
+#### Hints:
+
+- [Unity Editor - shortcuts](https://github.com/henriquebf/xr-playground/blob/main/unity/README.md)
