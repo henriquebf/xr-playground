@@ -1,4 +1,6 @@
-### Editor - Shortcuts
+# Unity Editor
+
+### Shortcuts:
 
 #### Selected object:
 - `w` position
