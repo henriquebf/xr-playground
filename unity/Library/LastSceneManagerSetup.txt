@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/PolygonStarter/Scenes/Oculus.unity
+- path: Assets/Mapbox/Examples/2_AstronautGame/AstronautGame.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
